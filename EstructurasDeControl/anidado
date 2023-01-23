@@ -1,0 +1,13 @@
+num = float(input("Ingresa un número: ")) 
+if num > 0: 
+    adjective = " " 
+    if num >= 1000000: 
+        adjective = " muy grande " 
+    elif num >= 1000: 
+        adjective = " grande " 
+    result = "Es realmente un número" + adjective + "y positivo" 
+elif num < 0: 
+    result = "Es un número negativo" 
+else: 
+    result = "Este número es cero" 
+print(result) 
